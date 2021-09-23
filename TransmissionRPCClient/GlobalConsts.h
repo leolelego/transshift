@@ -26,9 +26,6 @@
 #define USERDEFAULTS_BGFETCH_KEY_RPCCONFG           @"bgCurrentRPCConfig"
 #define USERDEFAULTS_BGFETCH_KEY_DOWNTORRENTIDS     @"bgDownloadingTorrentIds"
 
-/// returns YES if this is iPhone PLUS model on iOS8
-BOOL isIPhonePlus(void);
-
 /*!
      Set the large title for NavigationBar on iOS11.0+
      @param navVC - UINavigationController to set the title

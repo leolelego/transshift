@@ -65,7 +65,11 @@
     
     // create split view controller on iPad
     // TODO: also need to create SplitView on iPhone 6 Plus
+<<<<<<< HEAD
     if( [UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad )
+=======
+    if( [UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad)
+>>>>>>> 34e2bae7bbce8315ee2db00df0b19cdcd55052d6
     {
         TorrentListController *trc = instantiateController( CONTROLLER_ID_TORRENTLIST );
         trc.infoMessage = NSLocalizedString(@"There is no selected server. Select server from list of servers.", @"");

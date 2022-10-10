@@ -79,13 +79,9 @@
 		<string>fetch</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
-<<<<<<< HEAD
 	<string>LaunchScreen</string>
 	<key>UILaunchStoryboardName~ipad</key>
 	<string>LaunchScreen~ipad</string>
-=======
-	<string>LaunchStoryboard</string>
->>>>>>> 34e2bae7bbce8315ee2db00df0b19cdcd55052d6
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
